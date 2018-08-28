@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.PrincipalActivity">
+
+    <item
+        android:id="@+id/item_deletar"
+        android:icon="@drawable/ic_excluir"
+        android:title="@string/excluir"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_salvar"
+        android:icon="@drawable/ic_confirmar"
+        android:title="@string/salvar"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

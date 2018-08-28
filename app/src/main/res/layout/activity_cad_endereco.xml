@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activity.EnderecoCadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/endereco"
+            android:inputType="textImeMultiLine"
+            android:maxLength="30" />
+
+        <EditText
+            android:id="@+id/edtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero"
+            android:inputType="number"
+            android:maxLength="30" />
+
+        <EditText
+            android:id="@+id/edtComplemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/complemento"
+            android:inputType="textImeMultiLine"
+            android:maxLength="20" />
+
+    </LinearLayout>
+
+</ScrollView>
